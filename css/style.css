@@ -198,3 +198,45 @@ body {
     color: #ffffff;
 }
 
+.input-search {
+    height: 88px;
+}
+
+.input-search:focus {
+    border: none;
+}
+
+.input-search .button-secondary {
+    width: 200px;
+    height: 88px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-search .button-primary {
+    height: 88px;
+    background-color: var(--pr-color);
+    color: #ffffff;
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 0;
+}
