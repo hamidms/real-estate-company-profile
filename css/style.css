@@ -323,3 +323,45 @@ body {
     color: #ffffff;
 }
 
+#fitur h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-fitur h5 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.card-fitur h6 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-fitur button {
+    background-color: var(--pr-color);
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
