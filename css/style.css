@@ -365,3 +365,21 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 1;
 }
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
