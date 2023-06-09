@@ -383,3 +383,52 @@ body {
     background-color: var(--pr-color);
     padding: 0;
 }
+
+/* Contact Section */
+#contact {
+    background-image: url(../Assets/img/contact.png);
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+#contact h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.sosmed a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
