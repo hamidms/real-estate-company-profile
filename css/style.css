@@ -311,3 +311,15 @@ body {
     color: #000;
 }
 
+/* Card Fitur */
+
+.button-fitur {
+    width: 238px;
+    height: 63px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
